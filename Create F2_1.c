@@ -1,4 +1,4 @@
-Create F2_16.c
+Create F2_1.c
 The application you will be writing for is intended to run on a small, inexpensive embedded device that does not have a floating point unit. This means that the processor can only do integer arithmetic. However, the device does have a display and needs to display the result of floating point arithmetic to the user.  Because this is a small inexpensive processor there is no support for strings or any mathematical library functions. You must write all the code yourselves performing all the floating point math with integers only and no strings! Character arrays, or C strings, can't tell you their size but they do end with a '\0' character.
 
 The requirements for the code are to write one of the functions presented below. All the functions return a boolean value indicating the success or failure of the operation. Improper data is the most likely cause for a function to fail. You may add your own additional helper functions (I had at least a half dozen) but you must include them for the review. Do not change the interface to these functions.
